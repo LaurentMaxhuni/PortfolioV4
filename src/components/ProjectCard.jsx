@@ -10,7 +10,7 @@ function ProjectCard(props) {
       <div className="project-card-body my-3">
         <h3 className="project-card-title">{props.title}</h3>
         <p className="project-card-description">{props.description}</p>
-        <button className="project-card-link tw-mt-2"><a href={props.link}>View Project</a></button>
+        <button className="project-card-link mt-4"><a href={props.link}>View Project</a></button>
       </div>
     </div>
   );

@@ -18,8 +18,15 @@ body {
   color: var(--text);
 }
 
+.navbar {
+  background-color: var(--bg-color);
+  color: var(--text);
+  padding: 1rem 0;
+  transition: all 0.3s ease;
+}
+
 .navbar .container {
-  background-color: var(--bg-color) !important;
+  background-color: var(--bg-color);
 }
 
 @media screen and (width < 769px) {
@@ -59,7 +66,7 @@ body {
 .navbar-toggler-icon::after {
     display: block;
     background-color: var(--white);
-    height: 3.5px;
+    height: 3px;
     content: "";
     position: relative;
     top: 4px;
