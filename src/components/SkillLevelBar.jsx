@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import ProgressBar from "react-animated-progress-bar";
 import "../styles/SkillLevelBar.css";
 import CountUp from "react-countup";
+import ReactVisibilitySensor from "react-visibility-sensor";
 
 function SkillLevelBar(props) {
+  const [hasStarted, setHasStarted] = useState(false);
+
   return (
     <div>
       <hr />
@@ -28,10 +31,29 @@ function SkillLevelBar(props) {
             }}
           />
           <CountUp
+            start={0}
             end={props.percentage}
             suffix="%"
-            className="mx-3 tw-text-3xl tw-font-bold"
-          />
+          >
+            {({ countUpRef, start }) => {
+              return (
+                <ReactVisibilitySensor
+                  onChange={(isVisible) => {
+                    if (isVisible && !hasStarted) {
+                      start();
+                      setHasStarted(true); // Mark the animation as started
+                    }
+                  }}
+                  delayedCall
+                >
+                  <h1
+                    className="mx-3 tw-text-3xl tw-font-bold"
+                    ref={countUpRef}
+                  />
+                </ReactVisibilitySensor>
+              );
+            }}
+          </CountUp>
         </div>
 
         <div className="d-flex flex-row align-items-center">

@@ -42,9 +42,7 @@ Here are some of the projects featured in this portfolio:
 [https://quickit.netlify.app]
 4. **3es Shape Store**: Shape Store is an e-commerce website where users can buy and sell 3D shapes. <br> [https://3es.netlify.app]
 5. **Brainwave.io**: A Landing Page for a website builder company, where users can build their pages with no code. <br> [https://brain-wave-io.netlify.app]
-
-
-For a complete list of projects, please visit the [Projects](./projects) section.
+6. **Xinder**: A art gallery website where users can view and purchase art pieces. <br> [https://xinder.netlify.app]
 
 ## Setup
 

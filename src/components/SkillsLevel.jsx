@@ -15,7 +15,7 @@ import SkillLevelBar from "./SkillLevelBar";
 
 function SkillsLevel() {
   return (
-    <section className="my-3 tw-h-[100dvh]">
+    <section className="my-3">
       <div className="container">
         <h1 className="tw-text-6xl tw-font-bold tw-text-center">
           My <span className="tw-text-[var(--primary)]">Skill</span> Level

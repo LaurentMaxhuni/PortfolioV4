@@ -17,4 +17,10 @@
 
   --text: #eee;
   --font: "Poppins", "Roboto", sans-serif;
+
+  --project-card-hover-state-1: rgba(58, 174, 180, 0.4);
+  --project-card-hover-state-2: rgba(58, 174, 180, 0.3);
+  --project-card-hover-state-3: rgba(58, 174, 180, 0.2);
+  --project-card-hover-state-4: rgba(58, 174, 180, 0.1);
+  --project-card-hover-state-5: rgba(58, 174, 180, 0.05);
 }
