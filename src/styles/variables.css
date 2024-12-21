@@ -1,0 +1,18 @@
+:root {
+  --primary: #3aaeb4;
+  --secondary: #343840;
+
+  --button-primary: var(--primary);
+  --button-secondary: var(--secondary);
+
+  --bg-color: #232830;
+
+  --card-gray: #2e333c;
+
+  --white: #fff;
+  --black: #000;
+  --gray: #ccc;
+
+  --text: #eee;
+  --font: "Poppins", "Roboto", sans-serif;
+}
