@@ -5,6 +5,8 @@
   --button-primary: var(--primary);
   --button-secondary: var(--secondary);
 
+  --translucent-black: rgba(0, 0, 0, 0.5);
+
   --bg-color: #232830;
 
   --card-gray: #2e333c;

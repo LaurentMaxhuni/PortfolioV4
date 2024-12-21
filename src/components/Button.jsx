@@ -15,10 +15,10 @@ const Button = styled.button`
         `}
 
   border-radius: 50px;
-  padding: 12px 24px;
+  padding: 10px 20px;
   font-size: 1.2rem;
   transition: all 0.3s ease;
-  margin-inline: 10px;
+  margin: 10px;
 `;
 
 export default Button;

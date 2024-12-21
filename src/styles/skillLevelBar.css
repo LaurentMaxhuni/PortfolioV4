@@ -1,0 +1,19 @@
+.rect-progress-bar-percent {
+    display: none !important;
+}
+
+.progress-bar {
+    width: 200px;
+}
+
+@media screen and (width > 320px) and (width < 426px) {
+    .progress-bar {
+        width: 250px;
+    }
+}
+
+@media screen and (width > 425px) {
+    .progress-bar {
+        width: 450px;
+    }
+}

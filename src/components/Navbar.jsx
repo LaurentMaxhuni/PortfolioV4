@@ -5,7 +5,7 @@ import "../styles/variables.css";
 function Navbar() {
   return (
     <>
-      <nav className="navbar navbar-expand-lg tw-border-b-[1px] tw-h-[75px] tw-border-b-gray-700">
+      <nav className="navbar navbar-expand-lg tw-border-b-[1px] tw-h-[75px] tw-border-b-gray-700 fixed-top tw-bg-[var(--bg-color)]">
         <div className="container">
           <a className="navbar-brand" href="#">
             <span className="tw-text-[var(--text)] tw-font-bold">Laurent</span>&nbsp;
@@ -14,7 +14,7 @@ function Navbar() {
             </span>
           </a>
           <button
-            className="navbar-toggler"
+            className="navbar-toggler collapsed"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
