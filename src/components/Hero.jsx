@@ -25,7 +25,7 @@ function Hero() {
                   </a>
                 </Button>
                 <a
-                  href="../../public/laurentmaxhuni.pdf"
+                  href="../../laurentmaxhuni.pdf"
                   download="laurentmaxhuni.pdf"
                   className="tw-no-underline"
                 >

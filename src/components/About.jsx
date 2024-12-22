@@ -3,7 +3,7 @@ import aboutImage from "../../public/laurent-logo.png";
 
 function About() {
   return (
-    <section id="about" className="my-3 tw-h-[100dvh]">
+    <section id="about" className="my-3">
       <div className="container">
         <div className="row">
           <div className="col-12 col-lg-6 col-xl-6 text-center text-lg-start mb-4 d-grid tw-place-content-center">

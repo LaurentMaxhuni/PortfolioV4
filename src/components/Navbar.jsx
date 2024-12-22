@@ -5,7 +5,7 @@ import "../styles/variables.css";
 function Navbar() {
   return (
     <>
-      <nav className="navbar navbar-expand-lg tw-border-b-[1px] tw-h-[75px] tw-border-b-gray-700 fixed-top tw-bg-[var(--bg-color)]">
+      <nav className="navbar navbar-expand-md tw-border-b-[1px] tw-h-[75px] tw-border-b-gray-700 fixed-top tw-bg-[var(--bg-color)]">
         <div className="container">
           <a className="navbar-brand" href="#">
             <span className="tw-text-[var(--text)] tw-font-bold">Laurent</span>

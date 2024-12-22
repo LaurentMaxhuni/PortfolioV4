@@ -51,7 +51,7 @@ function Contact() {
   };
 
   return (
-    <section id="contact" className="my-5 py-5 tw-h-[100dvh]">
+    <section id="contact" className="my-5 py-5">
       <div className="container">
         <div className="row">
           <div className="col-12 col-lg-6 col-xl-6 tw-flex tw-flex-col">
