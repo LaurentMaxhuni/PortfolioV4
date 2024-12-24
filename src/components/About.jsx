@@ -1,12 +1,23 @@
-import React from "react";
+import React, {useEffect} from "react";
 import aboutImage from "../../public/laurent-logo.png";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function About() {
+
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
-    <section id="about" className="my-3">
+    <section id="about" className="my-4 py-4">
       <div className="container">
         <div className="row">
-          <div className="col-12 col-lg-6 col-xl-6 text-center text-lg-start mb-4 d-grid tw-place-content-center">
+          <div
+            className="col-12 col-lg-6 col-xl-6 text-center text-lg-start mb-4 d-grid tw-place-content-center"
+            data-aos="fade-right"
+            data-aos-duration="1500"
+          >
             <h1 className="tw-text-5xl md:tw-text-7xl tw-font-bold">
               About <span className="tw-text-[var(--primary)]">me</span>
             </h1>
@@ -23,7 +34,12 @@ function About() {
               projects.
             </p>
           </div>
-          <div className="col-12 col-lg-6 col-xl-6 d-flex justify-content-center">
+          <div
+            className="col-12 col-lg-6 col-xl-6 d-flex justify-content-center"
+            data-aos="fade-left"
+            data-aos-duration="1500"
+            data-aos-delay="400"
+          >
             <img src={aboutImage} alt="" className="img-fluid rounded-circle" />
           </div>
         </div>

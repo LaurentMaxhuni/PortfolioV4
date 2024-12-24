@@ -1,17 +1,27 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import ProgressBar from "react-animated-progress-bar";
 import "../styles/SkillLevelBar.css";
 import CountUp from "react-countup";
 import ReactVisibilitySensor from "react-visibility-sensor";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function SkillLevelBar(props) {
   const [hasStarted, setHasStarted] = useState(false);
+
+  useEffect(() => {
+    AOS.init();
+  }, []);
 
   return (
     <div>
       <hr />
       <div className="d-flex flex-column flex-lg-row gap-4 align-items-center tw-w-full justify-content-between my-3 py-3">
-        <div className="d-flex flex-row align-items-center">
+        <div
+          className="d-flex flex-row align-items-center"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+        >
           <ProgressBar
             width=""
             height="20px"
@@ -30,11 +40,7 @@ function SkillLevelBar(props) {
               good: "var(--primary)",
             }}
           />
-          <CountUp
-            start={0}
-            end={props.percentage}
-            suffix="%"
-          >
+          <CountUp start={0} end={props.percentage} suffix="%">
             {({ countUpRef, start }) => {
               return (
                 <ReactVisibilitySensor
@@ -56,7 +62,11 @@ function SkillLevelBar(props) {
           </CountUp>
         </div>
 
-        <div className="d-flex flex-row align-items-center">
+        <div
+          className="d-flex flex-row align-items-center"
+          data-aos="fade-left"
+          data-aos-duration="1000"
+        >
           <h1 className="tw-font-bold tw-text-3xl">{props.title}</h1>
           <img
             src={props.image}
