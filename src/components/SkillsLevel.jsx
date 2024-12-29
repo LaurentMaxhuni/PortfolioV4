@@ -15,11 +15,11 @@ import SkillLevelBar from "./SkillLevelBar";
 
 function SkillsLevel() {
   return (
-    <section className="my-3">
+    <section className="my-3" id="skills-level">
       <div className="container">
         <h1
           className="tw-text-6xl tw-font-bold tw-text-center"
-          data-aos="zoom-out-down"
+          data-aos="zoom-inn-down"
           data-aos-duration="1000"
         >
           My <span className="tw-text-[var(--primary)]">Skill</span> Level

@@ -25,7 +25,7 @@ function Skills() {
       <div className="container d-flex justify-content-center flex-column align-items-center">
         <h1
           className="tw-text-6xl tw-font-bold"
-          data-aos="zoom-out-down"
+          data-aos="zoom-in-down"
           data-aos-duration="1000"
         >
           My <span className="tw-text-[var(--primary)]">Skills</span>

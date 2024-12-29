@@ -1,5 +1,5 @@
 import React, {useEffect} from "react";
-import aboutImage from "../../public/laurent-logo.png";
+import aboutImage from "../assets/images/laurent-logo.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 

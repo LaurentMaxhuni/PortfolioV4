@@ -16,7 +16,6 @@
 body {
   background-color: var(--bg-color);
   color: var(--text);
-  overflow-x: hidden;
 }
 
 .navbar {
@@ -91,4 +90,23 @@ body {
  
 .navbar-toggler:not(.collapsed) .navbar-toggler-icon::after {
     transform: rotate(-90deg) translateX(7px);
+}
+
+
+#hero,
+#about,
+#skills,
+#skills-levelz,
+#contact {
+  overflow-x: hidden;
+}
+
+
+::-webkit-scrollbar {
+  background-color: var(--bg-color);  
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--primary);
+  border-radius: 20px;
 }

@@ -13,8 +13,8 @@ function Projects() {
     <section id="projects" className="my-3">
       <div className="container">
         <h2
-          className="tw-text-uppercase tw-text-center tw-font-bold tw-text-5xl md:tw-text-7xl"
-          data-aos="zoom-out-down"
+          className="tw-text-uppercase tw-text-center tw-font-bold tw-text-5xl md:tw-text-7xl tw-overflow-hidden"
+          data-aos="zoom-in-down"
           data-aos-duration="1000"
         >
           My <span className="tw-text-[var(--primary)]">Projects</span>

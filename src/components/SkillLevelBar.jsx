@@ -18,7 +18,7 @@ function SkillLevelBar(props) {
       <hr />
       <div className="d-flex flex-column flex-lg-row gap-4 align-items-center tw-w-full justify-content-between my-3 py-3">
         <div
-          className="d-flex flex-row align-items-center"
+          className="d-flex flex-row align-items-center skill-level-bar"
           data-aos="fade-right"
           data-aos-duration="1000"
         >
@@ -63,7 +63,7 @@ function SkillLevelBar(props) {
         </div>
 
         <div
-          className="d-flex flex-row align-items-center"
+          className="d-flex flex-row align-items-center skill-level-bar tw-overflow-hidden"
           data-aos="fade-left"
           data-aos-duration="1000"
         >

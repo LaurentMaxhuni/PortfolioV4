@@ -17,3 +17,7 @@
         width: 450px;
     }
 }
+
+.skill-level-bar {
+    overflow: hidden;
+}
