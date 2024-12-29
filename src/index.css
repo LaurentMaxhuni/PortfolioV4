@@ -16,7 +16,13 @@
 body {
   background-color: var(--bg-color);
   color: var(--text);
+  overflow-x: hidden !important;
+  overflow-y: scroll !important;
 }
+
+/* body * {
+  overflow: hidden;
+} */
 
 .navbar {
   background-color: var(--bg-color);
