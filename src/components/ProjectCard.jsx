@@ -5,10 +5,10 @@ import "aos/dist/aos.css";
 
 function ProjectCard(props) {
   useEffect(() => {
-    AOS.init();
+    AOS.init({ disable: "mobile" });
   }, []);
   return (
-    <div data-aos="zoom-in-down" data-aos-delay={props.delay}>
+    <div data-aos="zoom-in-down" data-aos-delay={props.delay} className="d-flex justify-content-center">
       <div className="project-card">
         <div className="project-card-header">
           <img src={props.image} alt="" />

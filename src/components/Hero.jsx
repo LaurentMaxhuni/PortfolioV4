@@ -6,7 +6,7 @@ import "aos/dist/aos.css";
 
 function Hero() {
   useEffect(() => {
-    AOS.init();
+    AOS.init({disable: "mobile"});
   }, []);
 
   return (

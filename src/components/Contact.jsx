@@ -80,7 +80,7 @@ function Contact() {
   }
 
   useEffect(() => {
-    AOS.init();
+    AOS.init({ disable: "mobile" });
   }, []);
 
   return (
@@ -98,7 +98,7 @@ function Contact() {
             </h1>
             <img src={contact} alt="" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500" />
           </div>
-          <div className="col-12 col-lg-6 col-xl-6 tw-h-fit lg:tw-h-auto mt-5" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="800">
+          <div className="col-12 col-lg-6 col-xl-6 tw-h-fit lg:tw-h-auto mt-5 d-flex justify-content-center" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="800">
             <form onSubmit={handleSubmit} className="tw-h-full ms-3">
               <div className="d-flex flex-row justify-content-between">
                 <div className="tw-flex tw-flex-col tw-w-80">

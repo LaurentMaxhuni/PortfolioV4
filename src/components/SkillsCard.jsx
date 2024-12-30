@@ -6,7 +6,7 @@ import "aos/dist/aos.css";
 function SkillsCard(props) {
 
   useEffect(() => {
-    AOS.init();
+    AOS.init({ disable: "mobile" });
   }, []);
 
   return (

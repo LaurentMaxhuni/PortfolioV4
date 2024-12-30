@@ -10,7 +10,7 @@ function SkillLevelBar(props) {
   const [hasStarted, setHasStarted] = useState(false);
 
   useEffect(() => {
-    AOS.init();
+    AOS.init({ disable: "mobile" });
   }, []);
 
   return (
