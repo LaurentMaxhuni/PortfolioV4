@@ -10,7 +10,7 @@
 
 .project-card:hover {
   scale: 1.05;
-  transition: all 0.3s ease;
+  transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
   cursor: pointer;
   box-shadow: var(--project-card-hover-state-1) 7px 7px,
     var(--project-card-hover-state-2) 12px 12px,
@@ -19,8 +19,19 @@
     var(--project-card-hover-state-5) 27px 27px;
 }
 
-.project-card-header img {
+.project-card-header figure {
+  width: 100%;
+  overflow: hidden;
   border-radius: 15px;
+}
+
+.project-card-header figure img {
+  transition: transform 0.3s ease;
+  border-radius: 15px;
+}
+
+.project-card:hover .project-card-header figure img {
+  transform: scale(1.07);
 }
 
 .project-card-title {

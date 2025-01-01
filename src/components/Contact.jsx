@@ -99,7 +99,7 @@ function Contact() {
             <img src={contact} alt="" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500" />
           </div>
           <div className="col-12 col-lg-6 col-xl-6 tw-h-fit lg:tw-h-auto mt-5 d-flex justify-content-center" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="800">
-            <form onSubmit={handleSubmit} className="tw-h-full ms-3">
+            <form onSubmit={handleSubmit} className="tw-h-full lg:tw-ms-5 tw-w-full ">
               <div className="d-flex flex-row justify-content-between">
                 <div className="tw-flex tw-flex-col tw-w-80">
                   <label htmlFor="name" className="tw-font-bold mb-2">

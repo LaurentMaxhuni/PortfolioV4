@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import "../styles/ProjectCard.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -8,10 +8,16 @@ function ProjectCard(props) {
     AOS.init({ disable: "mobile" });
   }, []);
   return (
-    <div data-aos="zoom-in-down" data-aos-delay={props.delay} className="d-flex justify-content-center">
+    <div
+      data-aos="zoom-in-down"
+      data-aos-delay={props.delay}
+      className="d-flex justify-content-center"
+    >
       <div className="project-card">
         <div className="project-card-header">
-          <img src={props.image} alt="" />
+          <figure>
+            <img src={props.image} alt="" />
+          </figure>
         </div>
         <div className="project-card-body my-3">
           <h3 className="project-card-title">{props.title}</h3>
