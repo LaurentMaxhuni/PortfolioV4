@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /google333cd27a0755db9d.html
+Disallow: /assets/
+
+Sitemap: https://yourdomain.com/sitemap.xml
