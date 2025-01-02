@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import PropTypes from "prop-types";
 import ProgressBar from "react-animated-progress-bar";
 import "../styles/SkillLevelBar.css";
 import CountUp from "react-countup";
@@ -79,5 +80,11 @@ function SkillLevelBar(props) {
     </div>
   );
 }
+
+SkillLevelBar.propTypes = {
+  title: PropTypes.string,
+  percentage: PropTypes.number,
+  image: PropTypes.string,
+};
 
 export default SkillLevelBar;

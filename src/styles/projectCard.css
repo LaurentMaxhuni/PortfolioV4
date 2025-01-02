@@ -1,6 +1,6 @@
 .project-card {
   height: 400px;
-  width: clamp(300px, 90%, 400px);
+  width: clamp(300px, 95%, 400px);
   box-shadow: var(--project-card-hover-state-3) 0px 13px 70px -20px;
   background-color: var(--card-gray);
   border-radius: 15px;
@@ -53,5 +53,16 @@
   &:hover {
     transition: all 0.3s ease;
     background-color: color-mix(in srgb, var(--primary) 70%, var(--black) 30%);
+  }
+}
+
+.project-card-link-secondary {
+  text-decoration: underline;
+  padding: 12px 24px;
+  color: color-mix(in srgb, var(--primary) 80%, var(--black) 10%);
+  transition: all 0.3s ease;
+  &:hover {
+    transition: all 0.3s ease;
+    color: color-mix(in srgb, var(--primary) 70%, var(--white) 30%);
   }
 }

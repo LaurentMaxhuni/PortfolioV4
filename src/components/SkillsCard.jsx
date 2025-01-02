@@ -1,4 +1,5 @@
 import React, {useEffect} from "react";
+import PropTypes from "prop-types";
 import "../styles/SkillsCard.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -22,5 +23,13 @@ function SkillsCard(props) {
     </div>
   );
 }
+
+SkillsCard.propTypes = {
+  image: PropTypes.string,
+  title: PropTypes.string,
+  description: PropTypes.string,
+  link: PropTypes.string,
+  delay: PropTypes.string,
+};
 
 export default SkillsCard;

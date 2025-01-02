@@ -25,6 +25,7 @@ function Projects() {
             title="Vuentai"
             description="An AI Application with various chatbots such as AI Code, AI Designer, etc."
             link="https://vuentai.netlify.app"
+            repoLink="https://github.com/LaurentMaxhuni/Vuent.ai.git"
             delay="100"
           />
           <ProjectCard
@@ -32,6 +33,7 @@ function Projects() {
             title="Weatherio"
             description="A Weather Application that provides weather information of any city."
             link="https://weatherio-la.netlify.app"
+            repoLink="https://github.com/LaurentMaxhuni/weatherio.git"
             delay="200"
           />
           <ProjectCard
@@ -39,6 +41,7 @@ function Projects() {
             title="3es Shape Store"
             description="A 3D Shape Store where users can buy and sell 3D shapes."
             link="https://3es.netlify.app"
+            repoLink="https://github.com/LaurentMaxhuni/digital-art.git"
             delay="300"
           />
           <ProjectCard
@@ -46,6 +49,7 @@ function Projects() {
             title="Brainwave"
             description="A Landing Page for a website builder company, where users can build their pages with no code."
             link="https://brain-wave-io.netlify.app"
+            repoLink="https://github.com/LaurentMaxhuni/Brainwave.git"
             delay="100"
           />
           <ProjectCard
@@ -53,6 +57,7 @@ function Projects() {
             title="Quickit"
             description="Quickit is an AI Dashboard, which utilizes AI to respond to users."
             link="https://quickit.netlify.app"
+            // repoLink={}
             delay="200"
           />
           <ProjectCard
@@ -60,6 +65,7 @@ function Projects() {
             title="Xinder"
             description="A art gallery website where users can view and purchase art pieces."
             link="https://xinder.netlify.app"
+            repoLink="https://github.com/LaurentMaxhuni/xinder.git"
             delay="300"
           />
         </div>
