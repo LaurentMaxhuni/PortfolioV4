@@ -1,5 +1,5 @@
 :root {
-  --primary: #3aaeb4;
+  --primary: #2159e4;
   --secondary: #343840;
 
   --button-primary: var(--primary);
@@ -7,9 +7,9 @@
 
   --translucent-black: rgba(0, 0, 0, 0.5);
 
-  --bg-color: #232830;
+  --bg-color: #0f111f;
 
-  --card-gray: #2e333c;
+  --card-gray: #1f2329;
 
   --white: #fff;
   --black: #000;
@@ -18,9 +18,9 @@
   --text: #eee;
   --font: "Poppins", "Roboto", sans-serif;
 
-  --project-card-hover-state-1: rgba(58, 174, 180, 0.4);
-  --project-card-hover-state-2: rgba(58, 174, 180, 0.3);
-  --project-card-hover-state-3: rgba(58, 174, 180, 0.2);
-  --project-card-hover-state-4: rgba(58, 174, 180, 0.1);
-  --project-card-hover-state-5: rgba(58, 174, 180, 0.05);
+  --project-card-hover-state-1: rgba(33, 89, 228, 0.4);
+  --project-card-hover-state-2: rgba(33, 89, 228, 0.3);
+  --project-card-hover-state-3: rgba(33, 89, 228, 0.2);
+  --project-card-hover-state-4: rgba(33, 89, 228, 0.1);
+  --project-card-hover-state-5: rgba(33, 89, 228, 0.05);
 }

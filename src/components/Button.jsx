@@ -17,7 +17,7 @@ const Button = styled.button`
   border-radius: 50px;
   padding: 10px 20px;
   font-size: 1.2rem;
-  transition: all 0.3s ease;
+  transition: all 0.3s ease !important;
   margin: 10px;
 `;
 

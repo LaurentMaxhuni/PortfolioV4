@@ -40,7 +40,7 @@ function About() {
             data-aos-duration="1500"
             data-aos-delay="400"
           >
-            <img src={aboutImage} alt="" className="img-fluid rounded-circle" />
+            <img src={aboutImage} alt="" className="img-fluid rounded-circle tw-border-[var(--primary)] tw-border-2 tw-shadow-lg tw-shadow-[var(--primary)]" />
           </div>
         </div>
       </div>
