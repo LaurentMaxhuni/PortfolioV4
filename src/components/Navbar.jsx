@@ -7,7 +7,7 @@ function Navbar() {
     <>
       <nav className="navbar navbar-expand-md tw-border-b-[1px] tw-h-[75px] tw-border-b-gray-700 fixed-top tw-bg-[var(--bg-color)]">
         <div className="container">
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand" href="#" aria-label="home">
             <span className="tw-text-[var(--text)] tw-font-bold">Laurent</span>
             &nbsp;
             <span className="tw-text-[var(--primary)] tw-font-bold">
@@ -31,6 +31,7 @@ function Navbar() {
                 <a
                   className="nav-link tw-text-[var(--text)] hover:tw-text-[var(--gray)] visited:tw-text-[var(--text)]"
                   href="#home"
+                  aria-label="home"
                 >
                   Home
                 </a>
@@ -39,6 +40,7 @@ function Navbar() {
                 <a
                   className="nav-link tw-text-[var(--text)] hover:tw-text-[var(--gray)] visited:tw-text-[var(--text)]"
                   href="#about"
+                  aria-label="about"
                 >
                   About Me
                 </a>
@@ -47,6 +49,7 @@ function Navbar() {
                 <a
                   className="nav-link tw-text-[var(--text)] hover:tw-text-[var(--gray)] visited:tw-text-[var(--text)]"
                   href="#skills"
+                  aria-label="skills"
                 >
                   Skills
                 </a>
@@ -55,6 +58,7 @@ function Navbar() {
                 <a
                   className="nav-link tw-text-[var(--text)] hover:tw-text-[var(--gray)] visited:tw-text-[var(--text)]"
                   href="#projects"
+                  aria-label="projects"
                 >
                   Projects
                 </a>
@@ -63,6 +67,7 @@ function Navbar() {
                 <a
                   className="nav-link tw-text-[var(--text)] hover:tw-text-[var(--gray)] visited:tw-text-[var(--text)]"
                   href="#contact"
+                  aria-label="contact"
                 >
                   Contact Me
                 </a>

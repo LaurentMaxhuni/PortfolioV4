@@ -12,6 +12,7 @@ function Footer() {
               href="https://www.instagram.com/laurent_maxhuni34/"
               target="_blank"
               rel="noreferrer"
+              aria-label="Instagram"
             >
               <FaInstagram className="fs-3" />
             </a>
@@ -19,6 +20,7 @@ function Footer() {
               href="https://www.github.com/LaurentMaxhuni"
               target="_blank"
               rel="noreferrer"
+              aria-label="Github"
             >
               <FaGithub className="fs-3" />
             </a>
@@ -26,6 +28,7 @@ function Footer() {
                 href="https://www.linkedin.com/in/laurent-maxhuni-56a394304/"
                 target="_blank"
                 rel="noreferrer"
+                aria-label="Linkedin"
                 >
                 <FaLinkedin className="fs-3" />
                 </a>

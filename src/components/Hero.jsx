@@ -34,6 +34,7 @@ function Hero() {
                     target="_blank"
                     referrerPolicy="noopener noreferrer"
                     className="tw-no-underline"
+                    aria-label="Hire Me"
                   >
                     Hire Me
                   </a>
@@ -43,6 +44,7 @@ function Hero() {
                     href="../../laurentmaxhuni.pdf"
                     download="laurentmaxhuni.pdf"
                     className="tw-no-underline"
+                    aria-label="Download CV"
                   >
                     Download CV
                   </a>

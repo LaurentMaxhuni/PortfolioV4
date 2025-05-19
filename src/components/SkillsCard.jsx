@@ -16,7 +16,7 @@ function SkillsCard(props) {
       <div className="skills-card-hover">
         <h2>{props.title}</h2>
         <p>{props.description}</p>
-        <a href={props.link} className="skills-link">
+        <a href={props.link} className="skills-link" target="_blank" rel="noreferrer noopener" aria-label="Visit Site">
           Visit Site
         </a>
       </div>

@@ -25,12 +25,12 @@ function ProjectCard(props) {
           <p className="project-card-description">{props.description}</p>
           <div className="tw-flex tw-justify-between tw-self-end">
             <button className="project-card-link mt-4">
-              <a href={props.link} target="_blank" rel="noreferrer noopener">
+              <a href={props.link} target="_blank" rel="noreferrer noopener" aria-label="View Project">
                 View Project
               </a>
             </button>
             <button className="project-card-link-secondary mt-4">
-              <a href={props.repoLink} target="_blank" rel="noreferrer noopener">
+              <a href={props.repoLink} target="_blank" rel="noreferrer noopener" aria-label="View Repository">
                 View Repository
               </a>
             </button>
