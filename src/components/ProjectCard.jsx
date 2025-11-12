@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from "react";
+import { useEffect } from "react";
 import PropTypes from "prop-types";
-import "../styles/ProjectCard.css";
+import "../styles/projectCard.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
