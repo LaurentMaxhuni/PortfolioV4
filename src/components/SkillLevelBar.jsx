@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import PropTypes from "prop-types";
 import ProgressBar from "react-animated-progress-bar";
-import "../styles/SkillLevelBar.css";
+import "../styles/skillLevelBar.css";
 import CountUp from "react-countup";
 import ReactVisibilitySensor from "react-visibility-sensor";
 import AOS from "aos";
